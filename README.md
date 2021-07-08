@@ -1,4 +1,7 @@
-# Predict-Future-Sales
+# Predict-Future-Sales 
+
+# Data Description-
+  The task is to forecast the total amount of products sold in every shop for the test set. Creating a robust model that can handle such situations is part of the challenge.
 
 # File Descriptions
   - sales_train.csv - the training set. Daily historical data from January 2013 to October 2015.
