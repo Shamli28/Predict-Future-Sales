@@ -23,3 +23,21 @@
   - item_name- name of item
   - shop_name- name of shop
   - item_category_name - name of item category
+  
+Lets first discuss what we are given & what we have to predict-
+
+training data-
+   1.date- every date of items sold
+   2.date_block_num - this number given to every month.
+   3.shop_id- unique number of every item.
+   4.item_id- unique number of every item.
+   5.item_price- price of every item.
+   6.item_cnt_day-number of items sold on a particular day.
+   
+testing data-
+   1.ID- unique for every (shop_id,item_id)pair.
+   2.shop_id- unique number of every shop.
+   3.item_id- unique number of every item.
+   
+Now what we have to predict?we have to predict how many items of a type from each shop will be sold in whole month. Our submission should have ID & item_cnt_month columns.
+
